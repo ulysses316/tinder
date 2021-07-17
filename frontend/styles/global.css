@@ -58,9 +58,59 @@ body{
 
 .degradado{
     background: rgb(0,0,0);
-background: linear-gradient(0deg, rgba(0,0,0,0.7681782185530462) 66%, rgba(4,3,0,0) 100%);
+    background: linear-gradient(0deg, rgba(0,0,0,0.7681782185530462) 66%, rgba(4,3,0,0) 100%);
 }
 
-/* .degradado p, h2{
-    color: white;
-} */
+.border-option{
+    font-size: 20px;
+    border-radius: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redo{
+    background: -webkit-linear-gradient(#f8bd3d, #f9de75);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border:solid 1px #f8bd3d;
+}
+.cross{
+    background: -webkit-linear-gradient(rgba(253,42,121,1), rgba(255,111,88,1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border:solid 1px rgba(253,42,121,1);
+}
+.star{
+    background: -webkit-linear-gradient(#327DC7, #3D9FFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border:solid 1px #327DC7;
+}
+.heart{
+    background: -webkit-linear-gradient(#10b36c, #10CE7A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border:solid 1px #10b36c;
+}
+.bolt{
+    background: -webkit-linear-gradient(#600792, #c771f9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border:solid 1px #600792;
+}
+
+.position-shortcuts{
+    position: absolute;
+    top: 95%;
+}
+
+.shortcut-container{
+    display: inline;
+    padding: 0 8px;
+}
+
+.shortcut-container span{
+    font-size: 15px;
+}
