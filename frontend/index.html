@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/normalizecss/normalize.css">
+    <link rel="stylesheet" href="./node_modules/uikit/dist/css/uikit.min.css">
+    <link rel="stylesheet" href="./styles/master.css">
+</head>
+<body class="uk-grid" uk-grid>
+    <section class="uk-width-1-5">
+        <!-- Navbar -->
+        <div class="tinder-background uk-text-center uk-padding-small uk-flex uk-flex-around uk-flex-middle">
+            <div class="uk-flex uk-flex-around uk-flex-middle uk-padding-small uk-width-1-2">
+                <img class="profile-img" src="https://picsum.photos/200/300" alt="">
+                <h5 class="uk-light uk-margin-remove uk-text-large">My profile</h5>
+            </div>
+            <div class="maletin-border">
+                <i class="fas fa-briefcase uk-light maletin"></i>
+            </div>
+        </div>
+        <!-- Matches and messages -->
+        <div>
+            <!-- Options -->
+            <div class="uk-padding-small">
+                <a>Matches</a>
+                <a>Messages</a>
+            </div>
+            <!-- Matches -->
+            <div class="grid-matches uk-padding-small uk-padding-remove-vertical">
+                <!-- Match -->
+                <a class="matches-img uk-padding-small">
+                    <p class="uk-light uk-margin-remove">Nombre</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="uk-flex uk-flex-center uk-flex-middle uk-width-expand background-profiles">
+        <!-- Profile -->
+        <div class="uk-flex uk-flex-center uk-flex-bottom profile">
+            <!-- Info -->
+            <div class="degradado uk-padding-small">
+                <h2 class="uk-light">Nombre</h2>
+                <p class="uk-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt neque sint minus dolor dignissimos eaque error nesciunt officia temporibus omnis? Aut doloribus magni excepturi autem similique temporibus alias asperiores sunt.</p>
+            </div>
+            <!-- Opciones -->
+            <div class="uk-flex uk-flex-around">
+                <div>
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./node_modules/uikit/dist/js/uikit.min.js"></script>
+    <script src="https://kit.fontawesome.com/3ec5c7c8b1.js" crossorigin="anonymous"></script>
+</body>
+</html>

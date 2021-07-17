@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "normalizecss": "^3.0.0",
+    "uikit": "^3.7.1"
+  }
+}
